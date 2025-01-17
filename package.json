@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "author": "",
+  "author": "Kateryna Velychko <kate2603.kv@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.1.5"
