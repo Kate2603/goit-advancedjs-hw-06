@@ -16,11 +16,14 @@
 
 // export {};
 
+interface PageProps {
+  title: string;
+}
 class Component<T> {
   constructor(public props: T) {}
 }
 
-class PageComponent extends Component<{ title: string }> {
+class PageComponent extends Component<PageProps> {
   pageInfo() {
     console.log(this.props.title);
   }
